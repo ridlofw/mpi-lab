@@ -1,0 +1,33 @@
+# PDF Module / Documents
+Tutorial MPI.pdf
+*.pdf
+
+# Compiled binaries (Tutorial)
+hello
+request_reply
+ring
+broadcast
+scatter_sum
+allreduce
+nonblocking_ring
+pi_mpi
+
+# General C build artifacts
+*.o
+*.obj
+*.exe
+*.out
+*.so
+*.dylib
+*.a
+
+# VS Code
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# OS generated files
+.DS_Store
+Thumbs.db
